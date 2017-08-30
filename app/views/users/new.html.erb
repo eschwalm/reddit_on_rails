@@ -4,12 +4,12 @@
   <%= auth_token %>
   <label>
     Username
-    <input type="text" name="user[username]" value="">
+    <input type="text" name="user[username]" value="<%= @user.username %>">
   </label>
 
   <label>
     Password
-    <input type="password" name="username[password]" value="">
+    <input type="password" name="user[password]" value="">
   </label>
 
   <input type="submit" name="" value="Create Account">
